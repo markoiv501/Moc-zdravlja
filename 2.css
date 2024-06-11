@@ -1,0 +1,98 @@
+.header {
+  height: 65px;
+    margin-top: 20px;
+}
+
+.header .container .row .col-md-5 img {
+  height: 45px;
+}
+
+.header-tekst {
+  margin-left: 80px;
+}
+
+.header-tekst li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 15pt;
+  margin-top: 5px;
+}
+
+.header-tekst li a{
+  text-decoration: none;
+  color: #7EB92B;
+}
+
+.header-tekst li .pocetna {
+  color: #142233;
+}
+
+.blok1 {
+  border: 0 solid black;
+  background-color: #142233;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.blok1 h1 {
+  color: #7EB92B;
+  padding-top: 16px;
+  text-align: center;
+  font-size: 28pt;
+  font-family: arial;
+}
+
+.blok2 {
+  border: 0 solid black;
+  background-color: #142233;
+  height: 200px;
+  width: 1110px;
+  margin: 50px auto;
+}
+
+.col-md-3 img {
+  height: 160px;
+  margin: 20px 0 0 12px;
+}
+
+.naslov {
+  color: #7EB92B;
+  font-size: 20pt;
+  font-family: arial;
+  margin-top: 18px;
+}
+
+.tekst1 {
+  font-family: arial;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: 0
+}
+
+.tekst2 {
+  font-family: arial;
+  color: white;
+  font-weight: normal;
+  margin-top: -15px;
+  margin-bottom: 2px;
+  margin-left: 0
+}
+
+.tekst3 {
+  font-family: arial;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 0;
+}
+
+.blok2 .col-md-9 a {
+  text-decoration: none;
+}
+
+.blok2 .col-md-3 a:hover img{
+  opacity: 50%;
+  transition: 0.3s
+}
